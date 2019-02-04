@@ -13,9 +13,9 @@ class Song
     # song.artist = artist
     # artist.songs << song
     # song
-    if self.all.find { |artist| artist.name == name } 
+    if self.all.find { |artist| artist.name == name }
   self.all.find { |artist| artist.name == name }
-else 
+else
   self.new(name)
 end
   end
